@@ -3,7 +3,7 @@
 
 /*body全体の設定*/
 body {
-    margin: 0; /*余白を0にする*/
+    margin: 0; /*余白を上下0、左右auto*/
     padding: 0;
 }
 
@@ -11,7 +11,7 @@ body {
 /*ヘッダー*/
 header {
     width: 1000px;
-    margin: 0;
+    margin: 0 auto;
     background-color: #ffcccc;
 }
 
@@ -21,10 +21,12 @@ header {
     width: 1000px;
     margin: 0 auto;/*マージンの上下を0、左右をauto*/
     display: flex;/*Flexboxを採用して横並びにする*/
+    align-self: flex-start; /* 左詰めにする */
 }
 
 #main {
     width: 700px;
+    margin: 0 auto;
     background-color: #ccffcc;
 }
 
@@ -37,6 +39,6 @@ header {
 /*フッター*/
 footer {
     width: 1000px;
-    margin: 0;
+    margin: 0 auto;
     background-color: #ffccff;
 }
