@@ -3,7 +3,7 @@
 
 /*body全体の設定*/
 body {
-    margin: 0; /*余白を上下0、左右auto*/
+    margin: 0; 
     padding: 0;
 }
 
@@ -11,7 +11,7 @@ body {
 /*ヘッダー*/
 header {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto;/*余白を上下0、左右auto*/
     background-color: #ffcccc;
 }
 
